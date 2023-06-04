@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("images/backimg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #000;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+ul li{
+    position: relative;
+    margin: 0 20px;
+    list-style: none;
+    display: inline-block;
+    padding: 14px;
+    font-size: 20px;
+    font-family: vogue;
+}
+
+ul li a{
+    text-decoration: none; 
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+ul li a:hover{
+    color: #856a0d;
+}
+
+#h1{
+    padding-top: 270px;
+    text-align: center;
+    color:#fff
+}
+
+#h2{
+    padding-top: 120px;
+    padding-bottom: 20px;
+    text-align: center;
+    color:#fff;
+    font-family: adelia;
+}
+
+#h3{
+    padding-top: 100px;
+    text-align: center;
+    color:#fff
+}
+
+div.container{
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+div.gallery {
+    background-color: #fff;
+    margin: 5px;
+    float: center;
+    width: 180px;
+    height: fit-content;
+}
+
+div.gallery:hover {
+    border: 1px 
+}
+
+div.gallery img {
+    height: fit-content;
+    width: 100%;
+}
+
+div.desc {
+    font-family: vogue;
+    color: #000;
+    background-color: #fff;
+    padding: 15px;
+    text-align: center;
+    height: 50px;
+}
+
+div.name{
+    font-size: 15px;
+    font-family: vogue;
+    color: #000;
+    background-color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+.container1{
+    opacity: 85%;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+    margin-top: 5%;
+    padding: 1px;
+    border-radius: 10px;
+    background-color: #000;
+}
+
+form{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 20px;
+}
+
+input{
+    font-family: vogue;
+    display: flex;
+    width: 250px;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+button{
+    background-color: #000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    font-family: vogue;
+}
+
+button:hover{
+    color:#856a0d;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
